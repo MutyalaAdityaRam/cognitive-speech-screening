@@ -1,0 +1,17 @@
+{
+  "name": "cognitive-speech/backend-gateway",
+  "description": "PHP gateway and MySQL persistence layer for cognitive speech screening reports.",
+  "type": "project",
+  "require": {
+    "php": ">=8.1",
+    "ext-pdo": "*",
+    "ext-pdo_mysql": "*",
+    "vlucas/phpdotenv": "^5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "CognitiveSpeech\\": "src/"
+    }
+  }
+}
+
